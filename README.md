@@ -6,13 +6,14 @@ Assuming you have docker and it's running
 
 1. clone the repository Bash
 git clone https://github.com/lauratobon/ai-digit-recognizer.git
-2. go to docker folder Bash
+2. add the test.csv and train.csv files to the folder
+3. go to docker folder Bash
 git cd docker
-3. Pull the base docker file Bash
+4. Pull the base docker file Bash
 docker pull juanarismendy/scikit_modified
-4. build the container based on the Dockerfile Bash
+5. build the container based on the Dockerfile Bash
 docker build -t digit_recognizer .
-5. run the container Bash
+6. run the container Bash
  docker run -it digit_recognizer
 
 This lates step will start running the train.py and the predict.py files
