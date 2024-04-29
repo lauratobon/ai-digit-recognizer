@@ -1,5 +1,5 @@
 # ai-digit-recognizer
-##How to run the containerized solution
+## How to run the containerized solution
 (Tests were made using a MacBook with M1 processor (ARM architecture)
 
 Assuming you have docker and it's running
