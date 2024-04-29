@@ -6,7 +6,7 @@ Assuming you have docker and it's running
 
 1. clone the repository Bash
 git clone https://github.com/lauratobon/ai-digit-recognizer.git
-2. add the test.csv and train.csv files to the folder
+2. add the test.csv and train.csv files to the folder, you can download the files from https://drive.google.com/drive/folders/1X627U5__I6N3sbN4YeIYPStSxIRKJijG?usp=sharing
 3. go to docker folder Bash
 git cd docker
 4. Pull the base docker file Bash
