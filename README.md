@@ -5,7 +5,7 @@
 Assuming you have docker and it's running
 
 1. clone the repository Bash
-git clone https://github.com/Juanda16/ai-digit-recognizer.git
+git clone https://github.com/lauratobon/ai-digit-recognizer.git
 2. go to docker folder Bash
 git cd docker
 3. Pull the base docker file Bash
