@@ -1,4 +1,4 @@
-# This line defines the base image for your Docker container.
+# This line defines the base image for the Docker container.
 # In this case, it uses the image named "juanarismendy/scikit_modified".
 # This image likely contains a modified version of the scikit-learn library.
 FROM juanarismendy/scikit_modified
@@ -8,7 +8,7 @@ FROM juanarismendy/scikit_modified
 RUN pip install -U Flask loguru numpy
 
 # Creates a directory named "app" inside the container.
-# This directory will be used as the working directory for your application.
+# This directory will be used as the working directory for the application.
 RUN mkdir /app
 
 # Copies the Python script "apirest.py" to the "/app" directory.
@@ -16,11 +16,11 @@ RUN mkdir /app
 COPY apirest.py /app
 
 # Copies the pickled model file "model.pkl" to the "/app" directory.
-# This file might contain a scikit-learn model used by your API.
+# This file might contain a scikit-learn model used by the API.
 COPY model.pkl /app
 
 # Copies the HDF5 model file "my_model.h5" to the "/app" directory.
-# This file might contain a Keras or TensorFlow model used by your API.
+# This file might contain a Keras or TensorFlow model used by the API.
 COPY my_model.h5 /app
 
 # Copies the "kaggle.json" file to the "/app" directory.
@@ -37,7 +37,6 @@ COPY train.csv /app
 COPY test.csv /app
 
 # Copies the "test_number.csv" file to the "/app" directory.
-# This file purpose is unclear based on the context provided. 
 COPY test_number.csv /app
 
 # Copies the directory "templates" to the "/app/templates" directory inside the container.
