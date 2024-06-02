@@ -20,7 +20,7 @@ COPY predict.py /app
 COPY model.pkl /app
 
 # Copies the "kaggle.json" file to the "/app" directory.
-# This file might contain authentication credentials for Kaggle or other purposes.
+# This file contain authentication credentials for Kaggle or other purposes.
 COPY kaggle.json /app
 
 # Copies the "train.csv" file to the "/app" directory.
@@ -32,7 +32,7 @@ COPY train.csv /app
 COPY test.csv /app
 
 # Copies the script "run.sh" to the "/app" directory.
-# This script might be a shell script that executes the training and prediction logic.
+# This script be a shell script that executes the training and prediction logic.
 COPY run.sh /app
 
 # Changes the working directory to "/app" inside the container.
