@@ -8,7 +8,7 @@ Assuming you have docker and it's running
 
 Bash
 ```bash
-git clone https://github.com/Juanda16/ai-digit-recognizer.git
+git clone https://github.com/lauratobon/ai-digit-recognizer.git
 ```
 
 2. go to cd api_rest_docker folder
