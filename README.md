@@ -15,7 +15,7 @@ git clone https://github.com/Juanda16/ai-digit-recognizer.git
 
 Bash
 ```bash
-git cd api_rest_docker  
+cd api_rest_docker  
 ```
 
 3. Pull the base docker file 
